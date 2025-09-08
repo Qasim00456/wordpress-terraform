@@ -4,8 +4,7 @@
 
 This project automates the provisioning of a **WordPress site** on **AWS EC2** using **Terraform**. It sets up all necessary infrastructure components to get WordPress running in a highly available, configurable, and replicable way.
 
-## 📸 Demo Screenshot (Optional)
-*(Add a screenshot or architecture diagram here)*
+
 
 ---
 
@@ -29,7 +28,7 @@ This project automates the provisioning of a **WordPress site** on **AWS EC2** u
 - **AWS VPC** (Networking layer)
 - **AWS Security Groups** (Firewall rules)
 - **Amazon Linux 2** / **Ubuntu**
-- **Apache / Nginx + PHP**
+- **Apache / PHP**
 - **MySQL / MariaDB** (local or external)
 
 ---
@@ -45,8 +44,7 @@ This project automates the provisioning of a **WordPress site** on **AWS EC2** u
 ├── terraform.tfvars # Actual variable values (optional)
 └── README.md # This file
 
-yaml
-Copy code
+
 
 ---
 
@@ -57,7 +55,7 @@ Copy code
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) configured with IAM credentials
 - [Terraform](https://www.terraform.io/downloads) v1.0+
 - An AWS account
-- SSH key pair (if not, one will be created)
+-
 
 ---
 
