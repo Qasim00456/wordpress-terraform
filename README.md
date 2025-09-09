@@ -35,16 +35,16 @@ This project automates the provisioning of a **WordPress site** on **AWS EC2** u
 
 ## 📁 Project Structure
 
-.
+terraform-assgnment/
+├── module/
+│ ├── ec2/ # EC2 resources (instance + variables)
+│ └── vpc/ # VPC resources (network + security groups)
+│
 ├── main.tf # Main Terraform configuration
-├── variables.tf # Input variable definitions
-├── outputs.tf # Output values
-├── provider.tf # AWS provider config
-├── userdata.sh # Bootstrap script to install WordPress
-├── terraform.tfvars # Actual variable values (optional)
-└── README.md # This file
-
-
+├── provider.tf # Provider configuration (e.g., AWS)
+├── var.tf # Global variables
+├── outputs.tf # Global outputs
+└── README.md # Project documentation
 
 ---
 
