@@ -74,7 +74,7 @@ Example terraform.tfvars:
 
 hcl
 Copy code
-region         = "us-east-1"
+region         = "eu-north-1"
 instance_type  = "t3.micro"
 key_pair_name  = "my-key-pair"
 public_key_path = "~/.ssh/id_rsa.pub"
