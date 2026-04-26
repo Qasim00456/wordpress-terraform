@@ -102,4 +102,4 @@ To destroy all resources and avoid AWS charges:
 
 bash
 Copy code
-terraform 
+ 
