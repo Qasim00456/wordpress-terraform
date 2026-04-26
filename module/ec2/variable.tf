@@ -4,7 +4,7 @@ variable "instance_type" {
   
 }
 locals {
-  EC2_AMI = "ami-0c4fc5dcabc9df21d"
+  EC2_AMI = "ami-0685f8dd865c8e389"
 }
 
 variable "subnet_id" {
